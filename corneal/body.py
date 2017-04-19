@@ -272,3 +272,18 @@ class Heaving(TransformedBody):
         x = self._displacement * np.sin(theta)
         xdot = self._displacement * self._frequency * np.cos(theta)
         self.set_motion(RigidMotion(0, x, 0, xdot))
+
+class Perturbation(TransformedBody):
+    """Perturbation in the incoming velocity
+    """
+    def __init__(self, body, displacement, frequency, phase=0.):
+        super(Heaving, self).__init__(body)
+        self._displacement = np.array(displacement, dtype="float64")
+        self._frequency = frequency
+        self._phase = phase * np.pi / 180
+
+    def _update(self):
+        theta = self._frequency * self.time + self._phase
+        x = self._displacement * np.sin(theta)
+        xdot = self._displacement * self._frequency * np.cos(theta)
+        self.set_motion(RigidMotion(0, x, 0, xdot))
