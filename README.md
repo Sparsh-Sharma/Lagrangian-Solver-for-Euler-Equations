@@ -1,7 +1,7 @@
 # Corneal
 2D Boundary Element Method for unsteady flows (popularly known as Panel Method)
 
-# Installing SteaPy package
+# Installing corneal package
 
 Prequisite
 ----------
@@ -12,6 +12,6 @@ Prequisite
 Steps
 -----
 
-1. Open the terminal and locate your steapy directory
+1. Open the terminal and locate your corneal directory
 
 2. Type 'python setup.py install' to install the library in your python
