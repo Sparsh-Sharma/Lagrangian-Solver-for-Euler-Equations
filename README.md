@@ -14,4 +14,4 @@ Steps
 
 1. Open the terminal and locate your corneal directory
 
-2. Type 'python setup.py install' to install the library in your python
+2. Type 'python setup.py install' to install the library into your python
