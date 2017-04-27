@@ -2,6 +2,7 @@
 2D Boundary Element Method for unsteady flows (popularly known as Panel Method)
 
 # Installing corneal package
+It is recommended to have Anaconda installed
 
 Prequisite
 ----------
