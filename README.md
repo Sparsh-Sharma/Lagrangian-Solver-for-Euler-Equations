@@ -1,4 +1,4 @@
-# Corneal
+# Corneal (COde foR uNstEAdy Lift )
 2D Boundary Element Method for unsteady flows (popularly known as Panel Method)
 
 # Disclaimer: 
