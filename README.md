@@ -1,19 +1,22 @@
-# Vortex Particle Solver
+### Vortex Particle Solver
 2d Euler equations solver based on the Lagrangian approach
 
-# Disclaimer: 
+![Alt Text](./basic_animation.gif)
+
+
+### Disclaimer: 
 This module is still heavily in development, and might break what you're working on!
 
-# Installing corneal package
+### Installing corneal package
 It is recommended to have Anaconda installed
 
-Prequisite
+### Prequisite
 ----------
 
 1. Numpy
 2. Matplotlib
 
-Steps
+### Steps
 -----
 
 1. Open the terminal and locate your corneal directory
