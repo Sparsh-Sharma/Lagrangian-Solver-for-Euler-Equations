@@ -1,5 +1,5 @@
-# Corneal (COde foR uNstEAdy Lift )
-2D Boundary Element Method for unsteady flows (popularly known as Panel Method)
+# Vortex Particle Solver
+2d Euler equations solver based on the Lagrangian approach
 
 # Disclaimer: 
 This module is still heavily in development, and might break what you're working on!
